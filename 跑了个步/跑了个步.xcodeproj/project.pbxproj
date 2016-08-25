@@ -1,0 +1,931 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC197A711D6D7ACF00863E04 /* footerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC197A701D6D7ACF00863E04 /* footerView.m */; };
+		CC197A771D6DD16800863E04 /* xingzuo.m in Sources */ = {isa = PBXBuildFile; fileRef = CC197A761D6DD16800863E04 /* xingzuo.m */; };
+		CCB1CD451D698DF000CEEE02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB1CD441D698DF000CEEE02 /* main.m */; };
+		CCB1CD481D698DF000CEEE02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB1CD471D698DF000CEEE02 /* AppDelegate.m */; };
+		CCB1CD4B1D698DF000CEEE02 /* WeatherController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB1CD4A1D698DF000CEEE02 /* WeatherController.m */; };
+		CCB1CD4E1D698DF000CEEE02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB1CD4C1D698DF000CEEE02 /* Main.storyboard */; };
+		CCB1CD501D698DF000CEEE02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB1CD4F1D698DF000CEEE02 /* Assets.xcassets */; };
+		CCB1CD531D698DF000CEEE02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB1CD511D698DF000CEEE02 /* LaunchScreen.storyboard */; };
+		CCB1CD5E1D698DF000CEEE02 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB1CD5D1D698DF000CEEE02 /* ____Tests.m */; };
+		CCB1CD691D698DF000CEEE02 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB1CD681D698DF000CEEE02 /* ____UITests.m */; };
+		CCE5D9DB1D6A8D6A00BADDF9 /* 优4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CCE5D9DA1D6A8D6A00BADDF9 /* 优4.jpeg */; };
+		CCE5D9DE1D6AA46600BADDF9 /* weatherCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE5D9DD1D6AA46600BADDF9 /* weatherCityController.m */; };
+		CCE5D9E01D6AC08900BADDF9 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCE5D9DF1D6AC08900BADDF9 /* 7.jpg */; };
+		CCE5D9E41D6AC1AB00BADDF9 /* headerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE5D9E21D6AC1AB00BADDF9 /* headerViewCell.m */; };
+		CCE5D9E51D6AC1AB00BADDF9 /* headerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCE5D9E31D6AC1AB00BADDF9 /* headerViewCell.xib */; };
+		CCE5D9E81D6ACD0800BADDF9 /* contentWeatherController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE5D9E71D6ACD0800BADDF9 /* contentWeatherController.m */; };
+		CCE5D9EB1D6ADBC700BADDF9 /* getContentWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE5D9EA1D6ADBC700BADDF9 /* getContentWeather.m */; };
+		CCE5D9ED1D6B1A8600BADDF9 /* 赫本5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCE5D9EC1D6B1A8600BADDF9 /* 赫本5.jpg */; };
+		CCE5D9EF1D6B1A9100BADDF9 /* 优3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CCE5D9EE1D6B1A9100BADDF9 /* 优3.jpeg */; };
+		CCE5D9F11D6B1C3500BADDF9 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCE5D9F01D6B1C3500BADDF9 /* 1.jpg */; };
+		CCE5D9F31D6B1D1000BADDF9 /* 优15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCE5D9F21D6B1D1000BADDF9 /* 优15.jpg */; };
+		CCE5D9F61D6B2ADD00BADDF9 /* todayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE5D9F51D6B2ADD00BADDF9 /* todayModel.m */; };
+		CCE5D9F91D6B387400BADDF9 /* headerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE5D9F81D6B387400BADDF9 /* headerView.m */; };
+		CCE5D9FB1D6B388800BADDF9 /* headerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCE5D9FA1D6B388800BADDF9 /* headerView.xib */; };
+		CCFA745C1D69A0720026DCCA /* RunningController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA745B1D69A0720026DCCA /* RunningController.m */; };
+		CCFA745F1D69A4F40026DCCA /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA745E1D69A4F40026DCCA /* MainController.m */; };
+		CCFA74621D69AF740026DCCA /* getWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA74611D69AF740026DCCA /* getWeather.m */; };
+		CCFA74651D69B01A0026DCCA /* weatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA74641D69B01A0026DCCA /* weatherModel.m */; };
+		CCFA747A1D69CD630026DCCA /* weatherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFA74781D69CD630026DCCA /* weatherCell.m */; };
+		CCFA747B1D69CD630026DCCA /* weatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCFA74791D69CD630026DCCA /* weatherCell.xib */; };
+		D4630E6DD9817E35242C4934 /* libPods-跑了个步UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E02805DADDCE0FA48F80D93 /* libPods-跑了个步UITests.a */; };
+		DCFCCD27E98EC52B8013AE2D /* libPods-跑了个步.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FB8C2E0F52B75EB13AF2B5 /* libPods-跑了个步.a */; };
+		FB58C86F52459376B25EBF6B /* libPods-跑了个步Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8A12E2DC56AB557A4E892A /* libPods-跑了个步Tests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCB1CD5A1D698DF000CEEE02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB1CD381D698DF000CEEE02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB1CD3F1D698DF000CEEE02;
+			remoteInfo = "跑了个步";
+		};
+		CCB1CD651D698DF000CEEE02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB1CD381D698DF000CEEE02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB1CD3F1D698DF000CEEE02;
+			remoteInfo = "跑了个步";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		133DC1140D1AE4D7C8EFB684 /* Pods-跑了个步UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-跑了个步UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-跑了个步UITests/Pods-跑了个步UITests.release.xcconfig"; sourceTree = "<group>"; };
+		31CF1C42B8FFFE46DD84A7C2 /* Pods-跑了个步.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-跑了个步.release.xcconfig"; path = "Pods/Target Support Files/Pods-跑了个步/Pods-跑了个步.release.xcconfig"; sourceTree = "<group>"; };
+		7BFE6BFE96C3F9360C67BFAA /* Pods-跑了个步UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-跑了个步UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-跑了个步UITests/Pods-跑了个步UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D107577AED6566FD31C1944 /* Pods-跑了个步.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-跑了个步.debug.xcconfig"; path = "Pods/Target Support Files/Pods-跑了个步/Pods-跑了个步.debug.xcconfig"; sourceTree = "<group>"; };
+		8E02805DADDCE0FA48F80D93 /* libPods-跑了个步UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-跑了个步UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FB8C2E0F52B75EB13AF2B5 /* libPods-跑了个步.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-跑了个步.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DFF5C10413F642000652A7 /* Pods-跑了个步Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-跑了个步Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-跑了个步Tests/Pods-跑了个步Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC8A12E2DC56AB557A4E892A /* libPods-跑了个步Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-跑了个步Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC197A6F1D6D7ACF00863E04 /* footerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = footerView.h; sourceTree = "<group>"; };
+		CC197A701D6D7ACF00863E04 /* footerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = footerView.m; sourceTree = "<group>"; };
+		CC197A751D6DD16800863E04 /* xingzuo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xingzuo.h; sourceTree = "<group>"; };
+		CC197A761D6DD16800863E04 /* xingzuo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xingzuo.m; sourceTree = "<group>"; };
+		CCB1CD401D698DF000CEEE02 /* 跑了个步.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "跑了个步.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB1CD441D698DF000CEEE02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCB1CD461D698DF000CEEE02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		CCB1CD471D698DF000CEEE02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		CCB1CD491D698DF000CEEE02 /* WeatherController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WeatherController.h; path = ../../../WeatherController.h; sourceTree = "<group>"; };
+		CCB1CD4A1D698DF000CEEE02 /* WeatherController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WeatherController.m; path = ../../../WeatherController.m; sourceTree = "<group>"; };
+		CCB1CD4D1D698DF000CEEE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCB1CD4F1D698DF000CEEE02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		CCB1CD521D698DF000CEEE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCB1CD541D698DF000CEEE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		CCB1CD591D698DF000CEEE02 /* 跑了个步Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "跑了个步Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB1CD5D1D698DF000CEEE02 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		CCB1CD5F1D698DF000CEEE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB1CD641D698DF000CEEE02 /* 跑了个步UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "跑了个步UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB1CD681D698DF000CEEE02 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		CCB1CD6A1D698DF000CEEE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCE5D9DA1D6A8D6A00BADDF9 /* 优4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "优4.jpeg"; sourceTree = "<group>"; };
+		CCE5D9DC1D6AA46600BADDF9 /* weatherCityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weatherCityController.h; sourceTree = "<group>"; };
+		CCE5D9DD1D6AA46600BADDF9 /* weatherCityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weatherCityController.m; sourceTree = "<group>"; };
+		CCE5D9DF1D6AC08900BADDF9 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		CCE5D9E11D6AC1AB00BADDF9 /* headerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = headerViewCell.h; sourceTree = "<group>"; };
+		CCE5D9E21D6AC1AB00BADDF9 /* headerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = headerViewCell.m; sourceTree = "<group>"; };
+		CCE5D9E31D6AC1AB00BADDF9 /* headerViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = headerViewCell.xib; sourceTree = "<group>"; };
+		CCE5D9E61D6ACD0800BADDF9 /* contentWeatherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contentWeatherController.h; sourceTree = "<group>"; };
+		CCE5D9E71D6ACD0800BADDF9 /* contentWeatherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contentWeatherController.m; sourceTree = "<group>"; };
+		CCE5D9E91D6ADBC700BADDF9 /* getContentWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getContentWeather.h; sourceTree = "<group>"; };
+		CCE5D9EA1D6ADBC700BADDF9 /* getContentWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getContentWeather.m; sourceTree = "<group>"; };
+		CCE5D9EC1D6B1A8600BADDF9 /* 赫本5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "赫本5.jpg"; sourceTree = "<group>"; };
+		CCE5D9EE1D6B1A9100BADDF9 /* 优3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "优3.jpeg"; sourceTree = "<group>"; };
+		CCE5D9F01D6B1C3500BADDF9 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		CCE5D9F21D6B1D1000BADDF9 /* 优15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "优15.jpg"; sourceTree = "<group>"; };
+		CCE5D9F41D6B2ADD00BADDF9 /* todayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = todayModel.h; sourceTree = "<group>"; };
+		CCE5D9F51D6B2ADD00BADDF9 /* todayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = todayModel.m; sourceTree = "<group>"; };
+		CCE5D9F71D6B387400BADDF9 /* headerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = headerView.h; sourceTree = "<group>"; };
+		CCE5D9F81D6B387400BADDF9 /* headerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = headerView.m; sourceTree = "<group>"; };
+		CCE5D9FA1D6B388800BADDF9 /* headerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = headerView.xib; sourceTree = "<group>"; };
+		CCFA74591D699A450026DCCA /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = ../Header.h; sourceTree = "<group>"; };
+		CCFA745A1D69A0720026DCCA /* RunningController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RunningController.h; path = ../../../RunningController.h; sourceTree = "<group>"; };
+		CCFA745B1D69A0720026DCCA /* RunningController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RunningController.m; path = ../../../RunningController.m; sourceTree = "<group>"; };
+		CCFA745D1D69A4F40026DCCA /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainController.h; path = ../../../MainController.h; sourceTree = "<group>"; };
+		CCFA745E1D69A4F40026DCCA /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainController.m; path = ../../../MainController.m; sourceTree = "<group>"; };
+		CCFA74601D69AF740026DCCA /* getWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = getWeather.h; path = ../../../getWeather.h; sourceTree = "<group>"; };
+		CCFA74611D69AF740026DCCA /* getWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = getWeather.m; path = ../../../getWeather.m; sourceTree = "<group>"; };
+		CCFA74631D69B01A0026DCCA /* weatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = weatherModel.h; path = ../../../weatherModel.h; sourceTree = "<group>"; };
+		CCFA74641D69B01A0026DCCA /* weatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = weatherModel.m; path = ../../../weatherModel.m; sourceTree = "<group>"; };
+		CCFA74771D69CD630026DCCA /* weatherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weatherCell.h; sourceTree = "<group>"; };
+		CCFA74781D69CD630026DCCA /* weatherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weatherCell.m; sourceTree = "<group>"; };
+		CCFA74791D69CD630026DCCA /* weatherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = weatherCell.xib; sourceTree = "<group>"; };
+		FB6EF4A0D7FF19441AB1DD42 /* Pods-跑了个步Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-跑了个步Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-跑了个步Tests/Pods-跑了个步Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB1CD3D1D698DF000CEEE02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFCCD27E98EC52B8013AE2D /* libPods-跑了个步.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB1CD561D698DF000CEEE02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB58C86F52459376B25EBF6B /* libPods-跑了个步Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB1CD611D698DF000CEEE02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4630E6DD9817E35242C4934 /* libPods-跑了个步UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B7745F34CDEFA886ACBFD8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D107577AED6566FD31C1944 /* Pods-跑了个步.debug.xcconfig */,
+				31CF1C42B8FFFE46DD84A7C2 /* Pods-跑了个步.release.xcconfig */,
+				B7DFF5C10413F642000652A7 /* Pods-跑了个步Tests.debug.xcconfig */,
+				FB6EF4A0D7FF19441AB1DD42 /* Pods-跑了个步Tests.release.xcconfig */,
+				7BFE6BFE96C3F9360C67BFAA /* Pods-跑了个步UITests.debug.xcconfig */,
+				133DC1140D1AE4D7C8EFB684 /* Pods-跑了个步UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCB1CD371D698DF000CEEE02 = {
+			isa = PBXGroup;
+			children = (
+				CCB1CD421D698DF000CEEE02 /* 跑了个步 */,
+				CCB1CD5C1D698DF000CEEE02 /* 跑了个步Tests */,
+				CCB1CD671D698DF000CEEE02 /* 跑了个步UITests */,
+				CCB1CD411D698DF000CEEE02 /* Products */,
+				1B7745F34CDEFA886ACBFD8A /* Pods */,
+				D06DDA76FA9F7790CCE75367 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB1CD411D698DF000CEEE02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB1CD401D698DF000CEEE02 /* 跑了个步.app */,
+				CCB1CD591D698DF000CEEE02 /* 跑了个步Tests.xctest */,
+				CCB1CD641D698DF000CEEE02 /* 跑了个步UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCB1CD421D698DF000CEEE02 /* 跑了个步 */ = {
+			isa = PBXGroup;
+			children = (
+				CCFA74731D69B3C60026DCCA /* others */,
+				CCFA74661D69B3C60026DCCA /* classes */,
+				CCB1CD431D698DF000CEEE02 /* Supporting Files */,
+			);
+			path = "跑了个步";
+			sourceTree = "<group>";
+		};
+		CCB1CD431D698DF000CEEE02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCE5D9F21D6B1D1000BADDF9 /* 优15.jpg */,
+				CCE5D9F01D6B1C3500BADDF9 /* 1.jpg */,
+				CCE5D9EC1D6B1A8600BADDF9 /* 赫本5.jpg */,
+				CCE5D9EE1D6B1A9100BADDF9 /* 优3.jpeg */,
+				CCE5D9DF1D6AC08900BADDF9 /* 7.jpg */,
+				CCE5D9DA1D6A8D6A00BADDF9 /* 优4.jpeg */,
+				CCB1CD441D698DF000CEEE02 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCB1CD5C1D698DF000CEEE02 /* 跑了个步Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB1CD5D1D698DF000CEEE02 /* ____Tests.m */,
+				CCB1CD5F1D698DF000CEEE02 /* Info.plist */,
+			);
+			path = "跑了个步Tests";
+			sourceTree = "<group>";
+		};
+		CCB1CD671D698DF000CEEE02 /* 跑了个步UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB1CD681D698DF000CEEE02 /* ____UITests.m */,
+				CCB1CD6A1D698DF000CEEE02 /* Info.plist */,
+			);
+			path = "跑了个步UITests";
+			sourceTree = "<group>";
+		};
+		CCFA74661D69B3C60026DCCA /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				CCFA74671D69B3C60026DCCA /* Main */,
+				CCFA746B1D69B3C60026DCCA /* Running */,
+				CCFA746F1D69B3C60026DCCA /* Weather */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		CCFA74671D69B3C60026DCCA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CCFA74681D69B3C60026DCCA /* Controller */,
+				CCFA74691D69B3C60026DCCA /* Model */,
+				CCFA746A1D69B3C60026DCCA /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CCFA74681D69B3C60026DCCA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCFA745D1D69A4F40026DCCA /* MainController.h */,
+				CCFA745E1D69A4F40026DCCA /* MainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCFA74691D69B3C60026DCCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCFA746A1D69B3C60026DCCA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCFA746B1D69B3C60026DCCA /* Running */ = {
+			isa = PBXGroup;
+			children = (
+				CCFA746C1D69B3C60026DCCA /* Controller */,
+				CCFA746D1D69B3C60026DCCA /* Model */,
+				CCFA746E1D69B3C60026DCCA /* View */,
+			);
+			path = Running;
+			sourceTree = "<group>";
+		};
+		CCFA746C1D69B3C60026DCCA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCFA745A1D69A0720026DCCA /* RunningController.h */,
+				CCFA745B1D69A0720026DCCA /* RunningController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCFA746D1D69B3C60026DCCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCFA746E1D69B3C60026DCCA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCFA746F1D69B3C60026DCCA /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				CCFA74701D69B3C60026DCCA /* Controller */,
+				CCFA74711D69B3C60026DCCA /* Model */,
+				CCFA74721D69B3C60026DCCA /* View */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		CCFA74701D69B3C60026DCCA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCB1CD491D698DF000CEEE02 /* WeatherController.h */,
+				CCB1CD4A1D698DF000CEEE02 /* WeatherController.m */,
+				CCE5D9DC1D6AA46600BADDF9 /* weatherCityController.h */,
+				CCE5D9DD1D6AA46600BADDF9 /* weatherCityController.m */,
+				CCE5D9E61D6ACD0800BADDF9 /* contentWeatherController.h */,
+				CCE5D9E71D6ACD0800BADDF9 /* contentWeatherController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCFA74711D69B3C60026DCCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CCFA74601D69AF740026DCCA /* getWeather.h */,
+				CCFA74611D69AF740026DCCA /* getWeather.m */,
+				CCE5D9E91D6ADBC700BADDF9 /* getContentWeather.h */,
+				CCE5D9EA1D6ADBC700BADDF9 /* getContentWeather.m */,
+				CCFA74631D69B01A0026DCCA /* weatherModel.h */,
+				CCFA74641D69B01A0026DCCA /* weatherModel.m */,
+				CCE5D9F41D6B2ADD00BADDF9 /* todayModel.h */,
+				CCE5D9F51D6B2ADD00BADDF9 /* todayModel.m */,
+				CC197A751D6DD16800863E04 /* xingzuo.h */,
+				CC197A761D6DD16800863E04 /* xingzuo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCFA74721D69B3C60026DCCA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCFA74771D69CD630026DCCA /* weatherCell.h */,
+				CCFA74781D69CD630026DCCA /* weatherCell.m */,
+				CCFA74791D69CD630026DCCA /* weatherCell.xib */,
+				CCE5D9E11D6AC1AB00BADDF9 /* headerViewCell.h */,
+				CCE5D9E21D6AC1AB00BADDF9 /* headerViewCell.m */,
+				CCE5D9E31D6AC1AB00BADDF9 /* headerViewCell.xib */,
+				CCE5D9F71D6B387400BADDF9 /* headerView.h */,
+				CCE5D9F81D6B387400BADDF9 /* headerView.m */,
+				CCE5D9FA1D6B388800BADDF9 /* headerView.xib */,
+				CC197A6F1D6D7ACF00863E04 /* footerView.h */,
+				CC197A701D6D7ACF00863E04 /* footerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCFA74731D69B3C60026DCCA /* others */ = {
+			isa = PBXGroup;
+			children = (
+				CCFA74591D699A450026DCCA /* Header.h */,
+				CCB1CD461D698DF000CEEE02 /* AppDelegate.h */,
+				CCB1CD471D698DF000CEEE02 /* AppDelegate.m */,
+				CCB1CD4C1D698DF000CEEE02 /* Main.storyboard */,
+				CCB1CD4F1D698DF000CEEE02 /* Assets.xcassets */,
+				CCB1CD511D698DF000CEEE02 /* LaunchScreen.storyboard */,
+				CCB1CD541D698DF000CEEE02 /* Info.plist */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		D06DDA76FA9F7790CCE75367 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92FB8C2E0F52B75EB13AF2B5 /* libPods-跑了个步.a */,
+				BC8A12E2DC56AB557A4E892A /* libPods-跑了个步Tests.a */,
+				8E02805DADDCE0FA48F80D93 /* libPods-跑了个步UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB1CD3F1D698DF000CEEE02 /* 跑了个步 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB1CD6D1D698DF000CEEE02 /* Build configuration list for PBXNativeTarget "跑了个步" */;
+			buildPhases = (
+				0B19DD3335BF9AB9C9718C36 /* [CP] Check Pods Manifest.lock */,
+				CCB1CD3C1D698DF000CEEE02 /* Sources */,
+				CCB1CD3D1D698DF000CEEE02 /* Frameworks */,
+				CCB1CD3E1D698DF000CEEE02 /* Resources */,
+				7CD9DA115592B0BADA323642 /* [CP] Embed Pods Frameworks */,
+				A830B64D2029863C2D2BBD2A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "跑了个步";
+			productName = "跑了个步";
+			productReference = CCB1CD401D698DF000CEEE02 /* 跑了个步.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCB1CD581D698DF000CEEE02 /* 跑了个步Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB1CD701D698DF000CEEE02 /* Build configuration list for PBXNativeTarget "跑了个步Tests" */;
+			buildPhases = (
+				D420748BCFB1AA876D09D8CE /* [CP] Check Pods Manifest.lock */,
+				CCB1CD551D698DF000CEEE02 /* Sources */,
+				CCB1CD561D698DF000CEEE02 /* Frameworks */,
+				CCB1CD571D698DF000CEEE02 /* Resources */,
+				A926BE4BD548316AE9D1E9C1 /* [CP] Embed Pods Frameworks */,
+				447190E22559D3188D8512BB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB1CD5B1D698DF000CEEE02 /* PBXTargetDependency */,
+			);
+			name = "跑了个步Tests";
+			productName = "跑了个步Tests";
+			productReference = CCB1CD591D698DF000CEEE02 /* 跑了个步Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCB1CD631D698DF000CEEE02 /* 跑了个步UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB1CD731D698DF000CEEE02 /* Build configuration list for PBXNativeTarget "跑了个步UITests" */;
+			buildPhases = (
+				E69006E240F08CD97991FBD2 /* [CP] Check Pods Manifest.lock */,
+				CCB1CD601D698DF000CEEE02 /* Sources */,
+				CCB1CD611D698DF000CEEE02 /* Frameworks */,
+				CCB1CD621D698DF000CEEE02 /* Resources */,
+				5E89AF01BFB19DF2A397FF8B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB1CD661D698DF000CEEE02 /* PBXTargetDependency */,
+			);
+			name = "跑了个步UITests";
+			productName = "跑了个步UITests";
+			productReference = CCB1CD641D698DF000CEEE02 /* 跑了个步UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB1CD381D698DF000CEEE02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mader;
+				TargetAttributes = {
+					CCB1CD3F1D698DF000CEEE02 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CCB1CD581D698DF000CEEE02 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CCB1CD3F1D698DF000CEEE02;
+					};
+					CCB1CD631D698DF000CEEE02 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CCB1CD3F1D698DF000CEEE02;
+					};
+				};
+			};
+			buildConfigurationList = CCB1CD3B1D698DF000CEEE02 /* Build configuration list for PBXProject "跑了个步" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCB1CD371D698DF000CEEE02;
+			productRefGroup = CCB1CD411D698DF000CEEE02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB1CD3F1D698DF000CEEE02 /* 跑了个步 */,
+				CCB1CD581D698DF000CEEE02 /* 跑了个步Tests */,
+				CCB1CD631D698DF000CEEE02 /* 跑了个步UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB1CD3E1D698DF000CEEE02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE5D9EF1D6B1A9100BADDF9 /* 优3.jpeg in Resources */,
+				CCFA747B1D69CD630026DCCA /* weatherCell.xib in Resources */,
+				CCB1CD531D698DF000CEEE02 /* LaunchScreen.storyboard in Resources */,
+				CCE5D9ED1D6B1A8600BADDF9 /* 赫本5.jpg in Resources */,
+				CCE5D9E01D6AC08900BADDF9 /* 7.jpg in Resources */,
+				CCE5D9F31D6B1D1000BADDF9 /* 优15.jpg in Resources */,
+				CCE5D9DB1D6A8D6A00BADDF9 /* 优4.jpeg in Resources */,
+				CCB1CD501D698DF000CEEE02 /* Assets.xcassets in Resources */,
+				CCB1CD4E1D698DF000CEEE02 /* Main.storyboard in Resources */,
+				CCE5D9E51D6AC1AB00BADDF9 /* headerViewCell.xib in Resources */,
+				CCE5D9F11D6B1C3500BADDF9 /* 1.jpg in Resources */,
+				CCE5D9FB1D6B388800BADDF9 /* headerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB1CD571D698DF000CEEE02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB1CD621D698DF000CEEE02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B19DD3335BF9AB9C9718C36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		447190E22559D3188D8512BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-跑了个步Tests/Pods-跑了个步Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E89AF01BFB19DF2A397FF8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-跑了个步UITests/Pods-跑了个步UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CD9DA115592B0BADA323642 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-跑了个步/Pods-跑了个步-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A830B64D2029863C2D2BBD2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-跑了个步/Pods-跑了个步-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A926BE4BD548316AE9D1E9C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-跑了个步Tests/Pods-跑了个步Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D420748BCFB1AA876D09D8CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E69006E240F08CD97991FBD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB1CD3C1D698DF000CEEE02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB1CD4B1D698DF000CEEE02 /* WeatherController.m in Sources */,
+				CC197A771D6DD16800863E04 /* xingzuo.m in Sources */,
+				CCE5D9F91D6B387400BADDF9 /* headerView.m in Sources */,
+				CC197A711D6D7ACF00863E04 /* footerView.m in Sources */,
+				CCE5D9EB1D6ADBC700BADDF9 /* getContentWeather.m in Sources */,
+				CCE5D9E41D6AC1AB00BADDF9 /* headerViewCell.m in Sources */,
+				CCB1CD481D698DF000CEEE02 /* AppDelegate.m in Sources */,
+				CCFA747A1D69CD630026DCCA /* weatherCell.m in Sources */,
+				CCE5D9E81D6ACD0800BADDF9 /* contentWeatherController.m in Sources */,
+				CCE5D9DE1D6AA46600BADDF9 /* weatherCityController.m in Sources */,
+				CCB1CD451D698DF000CEEE02 /* main.m in Sources */,
+				CCFA74621D69AF740026DCCA /* getWeather.m in Sources */,
+				CCFA745F1D69A4F40026DCCA /* MainController.m in Sources */,
+				CCFA745C1D69A0720026DCCA /* RunningController.m in Sources */,
+				CCFA74651D69B01A0026DCCA /* weatherModel.m in Sources */,
+				CCE5D9F61D6B2ADD00BADDF9 /* todayModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB1CD551D698DF000CEEE02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB1CD5E1D698DF000CEEE02 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB1CD601D698DF000CEEE02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB1CD691D698DF000CEEE02 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCB1CD5B1D698DF000CEEE02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB1CD3F1D698DF000CEEE02 /* 跑了个步 */;
+			targetProxy = CCB1CD5A1D698DF000CEEE02 /* PBXContainerItemProxy */;
+		};
+		CCB1CD661D698DF000CEEE02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB1CD3F1D698DF000CEEE02 /* 跑了个步 */;
+			targetProxy = CCB1CD651D698DF000CEEE02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCB1CD4C1D698DF000CEEE02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB1CD4D1D698DF000CEEE02 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CCB1CD511D698DF000CEEE02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB1CD521D698DF000CEEE02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCB1CD6B1D698DF000CEEE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCB1CD6C1D698DF000CEEE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB1CD6E1D698DF000CEEE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D107577AED6566FD31C1944 /* Pods-跑了个步.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "跑了个步/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LIBTOOLFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shengguang.run;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCB1CD6F1D698DF000CEEE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31CF1C42B8FFFE46DD84A7C2 /* Pods-跑了个步.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "跑了个步/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LIBTOOLFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shengguang.run;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCB1CD711D698DF000CEEE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7DFF5C10413F642000652A7 /* Pods-跑了个步Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "跑了个步Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mader.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/跑了个步.app/跑了个步";
+			};
+			name = Debug;
+		};
+		CCB1CD721D698DF000CEEE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB6EF4A0D7FF19441AB1DD42 /* Pods-跑了个步Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "跑了个步Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mader.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/跑了个步.app/跑了个步";
+			};
+			name = Release;
+		};
+		CCB1CD741D698DF000CEEE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BFE6BFE96C3F9360C67BFAA /* Pods-跑了个步UITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "跑了个步UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mader.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "跑了个步";
+			};
+			name = Debug;
+		};
+		CCB1CD751D698DF000CEEE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 133DC1140D1AE4D7C8EFB684 /* Pods-跑了个步UITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "跑了个步UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mader.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "跑了个步";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB1CD3B1D698DF000CEEE02 /* Build configuration list for PBXProject "跑了个步" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB1CD6B1D698DF000CEEE02 /* Debug */,
+				CCB1CD6C1D698DF000CEEE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB1CD6D1D698DF000CEEE02 /* Build configuration list for PBXNativeTarget "跑了个步" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB1CD6E1D698DF000CEEE02 /* Debug */,
+				CCB1CD6F1D698DF000CEEE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB1CD701D698DF000CEEE02 /* Build configuration list for PBXNativeTarget "跑了个步Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB1CD711D698DF000CEEE02 /* Debug */,
+				CCB1CD721D698DF000CEEE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB1CD731D698DF000CEEE02 /* Build configuration list for PBXNativeTarget "跑了个步UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB1CD741D698DF000CEEE02 /* Debug */,
+				CCB1CD751D698DF000CEEE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCB1CD381D698DF000CEEE02 /* Project object */;
+}
